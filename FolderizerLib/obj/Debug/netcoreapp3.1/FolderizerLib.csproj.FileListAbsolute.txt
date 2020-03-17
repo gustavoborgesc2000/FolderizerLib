@@ -1,0 +1,8 @@
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\bin\Debug\netcoreapp3.1\FolderizerLib.deps.json
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\bin\Debug\netcoreapp3.1\FolderizerLib.dll
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\bin\Debug\netcoreapp3.1\FolderizerLib.pdb
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\obj\Debug\netcoreapp3.1\FolderizerLib.csprojAssemblyReference.cache
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\obj\Debug\netcoreapp3.1\FolderizerLib.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\obj\Debug\netcoreapp3.1\FolderizerLib.AssemblyInfo.cs
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\obj\Debug\netcoreapp3.1\FolderizerLib.dll
+D:\Visual Studio Projects\FolderizerLib\FolderizerLib\obj\Debug\netcoreapp3.1\FolderizerLib.pdb

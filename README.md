@@ -8,8 +8,6 @@ This library provides means to dynamically organize a computer's directory. For 
 
 <h2>How does it work?</h2>
 
-It is supposed to work as following:
-
 You may have a directory full of audio files, which you would like to have them organized in a specific folder structure. But there are thousands of files. You can't do it manually. There's where FolderizerLib burst onto the scene. 
 
 You tell it the desired folder structure and it mounts and put your files in order. For example:

@@ -1,6 +1,7 @@
 # FolderizerLib
-<h3> This library is under development.</h3>
-<h2> What does FolderizerLib stands for?</h2>
+<h3>This library is under development.</h3>
+<br>
+<h2>What is Folderizer?</h2>
 
 This library provides means to dynamically organize a computer's directory. For now, FolderizerLib will only provide a <em>"folderizer"</em> for audio directories.
 
@@ -24,6 +25,6 @@ Or..
 
 <b>\ALBUM\ Files Here</b>
 
-The bottom line is: whatever organization sequence is asked for Folderizer, it will make it for you.
+The bottom line is: whatever is the organization sequence, Folderizer will make it for you.
 
 Later on, it is intended to be built a WPF desktop application that will consume this library and provide a graphic user interface.

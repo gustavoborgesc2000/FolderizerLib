@@ -22,14 +22,14 @@ namespace FolderizerLibTest.Configuration
         [Test]
         public void SetBasePath_WhenExistentDirectory_BasePathPropertyShouldBeSet()
         {
-            configurations.SetBasePath(TestPaths.ValidBasePath);
+            configurations.BasePath = TestPaths.ValidBasePath;
             Assert.AreEqual(TestPaths.ValidBasePath, configurations.BasePath);
         }
 
         [Test]
         public void SetBasePath_WhenNotExistentDirectory_ShouldThrowDirectoryNotFoundException()
         {
-            Assert.Throws<DirectoryNotFoundException>(() => configurations.SetBasePath(""));
+            Assert.Throws<DirectoryNotFoundException>(() => configurations.BasePath = "");
         }
         #endregion
 
@@ -37,14 +37,14 @@ namespace FolderizerLibTest.Configuration
         [Test]
         public void SetOutputPath_WhenNotSet_ShouldBeSameAsBasePath()
         {
-            configurations.SetBasePath(TestPaths.ValidOutputPath);
+            configurations.OutputPath = TestPaths.ValidOutputPath;
             Assert.AreEqual(TestPaths.ValidOutputPath, configurations.OutputPath);
         }
 
         [Test]
         public void SetOutputPath_WhenExistentDirectory_OutputPathPropertyShouldBeSet()
         {
-            configurations.SetOutputPath(TestPaths.ValidOutputPath);
+            configurations.OutputPath = TestPaths.ValidOutputPath;
             Assert.AreEqual(TestPaths.ValidOutputPath, configurations.OutputPath);
         }
 
@@ -52,49 +52,24 @@ namespace FolderizerLibTest.Configuration
         [Test]
         public void SetOutputPath_WhenNotExistentDirectory_OutputPathPropertyShouldBeSet()
         {
-            configurations.SetOutputPath(TestPaths.NotCreatedDirectory);
+            configurations.OutputPath = TestPaths.NotCreatedDirectory;
             Assert.AreEqual(TestPaths.NotCreatedDirectory, configurations.OutputPath);
         }
         #endregion
 
-        #region Set Both Paths Tests
-
-        [Test]
-        public void SetBothPathsAtTheSameTime_WhenBothPathsExist_BothPropertiesShouldBeSet()
-        {
-            configurations.SetPaths(TestPaths.ValidBasePath, TestPaths.ValidOutputPath);
-            Assert.AreEqual(TestPaths.ValidBasePath, configurations.BasePath);
-            Assert.AreEqual(TestPaths.ValidOutputPath, configurations.OutputPath);
-        }
-
-        [Test]
-        public void SetBothPathsAtTheSameTime_WhenBasePathDoesNotExist_ShouldThrowDirectoryNotFoundException()
-        {
-            Assert.Throws<DirectoryNotFoundException>(
-                () => configurations.SetPaths(TestPaths.NotCreatedDirectory, TestPaths.ValidOutputPath));
-        }
-
-        [Test]
-        public void SetBothPathsAtTheSameTime_WhenOutputPathDoesNotExist_BothPropertiesShouldBeSet()
-        {
-            configurations.SetPaths(TestPaths.ValidBasePath, TestPaths.NotCreatedDirectory);
-            Assert.AreEqual(TestPaths.ValidBasePath, configurations.BasePath);
-            Assert.AreEqual(TestPaths.NotCreatedDirectory, configurations.OutputPath);
-        }
-        #endregion
 
         #region Set Operation Method Tests
         [Test]
         public void SetOperationMethod_WhenDifferentFromDefaultMethod_OperationMethodPropertyShouldBeSet()
         {
-            configurations.SetOperationMethods(OperationMethods.MoveFiles);
-            Assert.AreEqual(OperationMethods.MoveFiles, configurations.OperationMethod);
+            configurations.OperationMethod = OperationMethod.MoveFiles;
+            Assert.AreEqual(OperationMethod.MoveFiles, configurations.OperationMethod);
         }
 
         [Test]
         public void SetOperationMethod_WhenNotSet_OperationMethodPropertyShouldBeCopy()
         {
-            Assert.AreEqual(OperationMethods.CopyFiles, configurations.OperationMethod);
+            Assert.AreEqual(OperationMethod.CopyFiles, configurations.OperationMethod);
         }
 
         #endregion
@@ -109,14 +84,13 @@ namespace FolderizerLibTest.Configuration
         [Test]
         public void SetMaxSearchDepth_WhenDepthBiggerThanFive_ShouldThrowSearchDepthExceedsAcceptableLimitException()
         {
-            Assert.Throws<SearchDepthExceedsAcceptableLimitException>(
-                () => configurations.SetMaxSearchDepth(6));
+            Assert.Throws<SearchDepthExceedsAcceptableLimitException>(() => configurations.MaxSearchDepth = 6);
         }
 
         [Test]
         public void SetMaxSearchDepth_WhenDepthLesserThanOrEqualToFive_SearchDepthPropertyShouldBeSet()
         {
-            configurations.SetMaxSearchDepth(5);
+            configurations.MaxSearchDepth = 5;
             Assert.AreEqual(5, configurations.MaxSearchDepth);
         }
 

@@ -1,6 +1,6 @@
 ﻿namespace FolderizerLib.Configuration
 {
-    public enum OperationMethods
+    public enum OperationMethod
     {
         CopyFiles, MoveFiles
     }

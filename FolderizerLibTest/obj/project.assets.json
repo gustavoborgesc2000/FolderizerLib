@@ -4649,11 +4649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLibTest\\FolderizerLibTest.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLibTest\\FolderizerLibTest.csproj",
       "projectName": "FolderizerLibTest",
-      "projectPath": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLibTest\\FolderizerLibTest.csproj",
+      "projectPath": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLibTest\\FolderizerLibTest.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLibTest\\obj\\",
+      "outputPath": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLibTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4669,8 +4669,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLib\\FolderizerLib.csproj": {
-              "projectPath": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLib\\FolderizerLib.csproj"
+            "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLib\\FolderizerLib.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLib\\FolderizerLib.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLib\\FolderizerLib.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLib\\FolderizerLib.csproj",
       "projectName": "FolderizerLib",
-      "projectPath": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLib\\FolderizerLib.csproj",
+      "projectPath": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLib\\FolderizerLib.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Projects\\FolderizerLib\\FolderizerLib\\obj\\",
+      "outputPath": "C:\\Users\\gusta\\Documents\\GitHub\\folderizer-lib\\FolderizerLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
